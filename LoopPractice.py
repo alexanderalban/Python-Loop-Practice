@@ -54,3 +54,42 @@ for week in range(1, 53):
 # imagine a staircase with 20 steps
 for step in range(0, 20):
     print(step)
+
+x = 45
+y = 80
+while x < 50 and y < 100:
+    x = x + 1
+    y = y + 1
+    print(x, y)
+
+# More Practice!
+
+# Break the loop
+for x in range(0, 20):
+    print('hello %s' % x)
+    if x < 9:
+        break
+
+# Check for even numbers
+for even in range(0, 33):
+    if (even % 2) == 0:
+        print("%s is even" % even)
+
+# Make a loop that prints out the ingredient of a nice sandwich
+
+ingredients = ["bread", "ham", "cheddar", "mayo",
+               "mustard", "lettuce", "banana peppers"]
+
+for i in ingredients:
+    print(i)
+
+# If you were standing on the moon, your weight would be 16.5 percent of what it is on Earth. You can calculate that by
+# multiplying your Earth weight by 0.165. If you gained a kilo in weight every year for the next 15 years, what would your
+# weight be when you visited the moon each year and at the end of the 15 years?
+
+weight = 91
+
+for i in range(0, 15):
+    weight = weight + 1
+    moon_weight = weight * 0.165
+    print(moon_weight)
