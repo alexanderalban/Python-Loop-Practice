@@ -93,3 +93,33 @@ for i in range(0, 15):
     weight = weight + 1
     moon_weight = weight * 0.165
     print(moon_weight)
+
+
+# ##### More loop practice with Python Crash Course
+# if you want to perform the same action on every item in a list, use a for loop
+xmen = ['cyclops', 'beast', 'jean grey', 'storm', 'rogue', 'wolverine']
+for xman in xmen:
+    print(xman)
+
+# we can do more with for! loops!
+for xman in xmen:
+    print(xman.title() + ", to me, my X-men!")
+    print("Hello " + xman.title() + ", how are you doing?")
+print("Thanks for coming, I was lonely.")
+
+# Making numberical lists
+# range
+
+for value in range(0, 10):
+    print(value)
+
+# if you want to turn a range into a list, you can use the list() function
+
+print(list(range(0, 10)))
+
+# you can tell it to skip numbers or iterate over a particular range. lets make an list of even numbers
+for value in range(0, 10, 2):
+    print(value)
+
+even_list = list(range(0, 10, 2))
+print(even_list)
