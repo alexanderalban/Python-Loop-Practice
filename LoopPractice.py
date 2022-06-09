@@ -123,3 +123,16 @@ for value in range(0, 10, 2):
 
 even_list = list(range(0, 10, 2))
 print(even_list)
+
+# simple statistics with lists
+
+numlist = list(range(0, 11))
+print(numlist)
+print(max(numlist))
+print(min(numlist))
+print(sum(numlist))
+
+# List comprehensions
+# combines creating a list and using a for loop to do it all in one line
+squares =[value**2 for value in range(1, 11)]
+print(squares)
